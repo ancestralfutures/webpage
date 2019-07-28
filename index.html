@@ -63,7 +63,11 @@
     
     <div class="hero-content">
            
-            <div class="planet"></div>            
+            <div class="planet"></div>
+            
+            <img class='myimage'src="http://klear.me/view/119628131453930/key.gif" width='20px'alt="">
+      
+            
             
             
             
@@ -398,5 +402,32 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
     <script type='text/javascript' src='js/circle-progress.min.js'></script>
     <script type='text/javascript' src='js/jquery.countTo.min.js'></script>
     <script type='text/javascript' src='js/custom.js'></script>
+    <script type='text/javascript'
+  src='http://code.jquery.com/jquery-2.1.0.js'></script>
+
+<script type='text/javascript'>
+if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
+    $(window).load(function(){
+    var animate = function() {
+      $(".myimage").animate({left: 400}, 6000, 'linear', function() {
+        $(this).css('left', 0);
+        animate();
+      });
+    }
+    animate();
+})
+} else {
+    $(window).load(function(){
+    var animate = function() {
+      $(".myimage").animate({left: 800}, 6000, 'linear', function() {
+        $(this).css('left', 390);
+        animate();
+      });
+    }
+    animate();
+});
+}
+
+</script>
 </body>
 </html>
