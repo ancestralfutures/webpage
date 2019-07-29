@@ -44,6 +44,12 @@
     opacity: 0.5;
 
     }
+    .newtitle{
+        top:280px;
+        position: absolute;
+        z-index: 8;
+        text-align: center;
+    }
   }
 
 body {
