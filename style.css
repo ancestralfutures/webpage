@@ -18,7 +18,7 @@
 }
 .artists {
     display:block;
-    width: 60%;
+    width: 100%;
     margin-left: auto;
     margin-right: auto;
     position: absolute;
@@ -1102,6 +1102,7 @@ body {
 }
 
 .about-us .main-content .featured-image img {
+    opacity: 0.8;
     max-width: 100%;
 }
 
@@ -1142,13 +1143,13 @@ body {
 ------------------------------------------------------------*/
 .testimonial-wrap {
     position: relative;
-    background-image: linear-gradient(to bottom, #0196bf, #00a0bc, #00a9b3, #00b1a4, #1bb791);
+    background-image: linear-gradient(to bottom,black,black,black, black, orange);
 }
 
 .testimonials-container,
 .testimonial-featured-image {
     position: relative;
-    width: 100%;
+    width: 70%;
     overflow: hidden;
 }
 
@@ -1157,7 +1158,7 @@ body {
 }
 
 .testimonial-content-wrap {
-    padding: 120px 80px 110px 40px;
+    padding: 0px 80px 0px 40px;
 }
 
 .testimonial-content-wrap .user-avatar {
@@ -1169,7 +1170,7 @@ body {
 }
 
 .testimonial-content {
-    width: calc(100% - 92px);
+    width: calc(100%);
 }
 
 .testimonial-content-wrap .entry-title {
@@ -1230,8 +1231,8 @@ body {
 }
 
 .testimonial-featured-image img {
-    min-width: 100%;
-    width: auto;
+    min-width: 90%;
+    width: 90;
     height: 100%;
 }
 
