@@ -18,12 +18,14 @@
 }
 .artists {
     display:block;
-    width: 100%;
+    width: 85%;
+    left: 10%;
     margin-left: auto;
     margin-right: auto;
     position: absolute;
     top: 400px;
     opacity: 0.96;
+
 }
 @media only screen and (max-width: 600px) {
     .myimage {
@@ -388,7 +390,6 @@ body {
 # The Lineup Artists - Headliners
 ------------------------------------------------------------*/
 .content-section {
-    min-height: 4640px;
     width: 100%;
     padding-bottom: 120px;
     background: url("https://www.pixel-creation.com/wp-content/uploads/sky-stars-black-background-animation-free-footage-hd-youtube.jpg") no-repeat;
@@ -964,7 +965,7 @@ body {
 .footer-content-wrapper .copyright-info {
     margin-top: 20px;
     font-size: 12px;
-    color: hsl(0, 0%, 100%);
+    color:black;
 }
 
 .footer-content-wrapper .footer-social {
@@ -984,7 +985,7 @@ body {
 .footer-content-wrapper .footer-social ul a {
     padding: 5px 16px;
     font-size: 12px;
-    color: hsl(0, 0%, 100%);
+    color: black;
 }
 
 /*------------------------------------------------------------
