@@ -56,7 +56,7 @@
   .newtitle{
     top: 40%;
 
-    left: 30%;
+    left: 40%;
     position: absolute;
     z-index: 8;
     text-align: center;
@@ -1871,32 +1871,32 @@ body {
 .tabs ul .tab-nav {
     padding: 15px 40px;
     line-height: 1;
-    color: #040608;
+    color: white;
     font-weight: 600;
     cursor: pointer;
 }
 
 .tabs-container {
-    background: #f3f8f9;
+
     box-shadow: 5px 14px 100px rgba(0, 0, 0, 0.1);
 }
 
 .tabs-container .tab-content {
     display: block;
     padding: 48px;
-    background: #fff;
+
 }
 
 .tabs-container .tab-content .entry-header {
     margin-top: 0;
     font-size: 24px;
     font-weight: 500;
-    color: #040608;
+    color: orange;
 }
 
 .tabs-container .tab-content p {
     margin-top: 35px;
-    color: #989898;
+    color: white;
     font-size: 15px;
     font-weight: 300;
     line-height: 2;
