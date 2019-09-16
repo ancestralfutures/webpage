@@ -50,12 +50,13 @@
         top:280px;
         position: absolute;
         z-index: 8;
+        left: 0%;
         text-align: center;
+        font-size: 25px;
     }
   }
   .newtitle{
     top: 40%;
-
     left: 40%;
     position: absolute;
     z-index: 8;
