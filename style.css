@@ -473,7 +473,7 @@ body {
     position: relative;
     padding: 30px;
     background: hsl(0, 0%, 100%);
-    box-shadow: 50px 40px 115px rgba(0, 0, 0, 0.1);
+
 }
 
 .lineup-artists-description .entry-title {
@@ -608,7 +608,6 @@ body {
     opacity: 0.5;
     background-color: #fff;
 
-    box-shadow: 0px 0px 10px 10px #0ff;
 }
 
 .the-complete-lineup-artists .artist-single .featured-image a {
